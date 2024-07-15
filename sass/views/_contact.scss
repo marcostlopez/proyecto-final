@@ -1,0 +1,45 @@
+/*--- CONTACT ---*/
+.contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    .muestrario{
+        width: 50rem;
+        height: auto;
+        margin: 5rem;
+    }
+
+    .contenedor_form{
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+        .form_label{
+            color: $principal;
+            font-size: $text-md;
+        }
+        .form_control{
+            border: none;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .contact{
+        .muestrario{
+            margin: auto;
+        }
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .contact{
+        .muestrario{
+            display: none;
+        }
+    }
+}

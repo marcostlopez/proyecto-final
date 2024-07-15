@@ -1,0 +1,28 @@
+/*--- FOOTER ---*/
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+
+    p{
+        text-align: center;
+        color: $principal;
+        font-size: $text-lt;
+    }
+
+    .footer_list{
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+        &_icon{
+            height: 3rem;
+            width: auto;
+            margin: 0 2rem;
+        }
+    }
+}
